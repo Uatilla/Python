@@ -1,2 +1,6 @@
-input("What's your name? ")
-print("Hello, David")
+name = input("What's your name? ")
+print("Hello," + name, sep=" | ")
+print("Hello,",name, sep=" | ")
+print(name)
+print("Hello, {}!". format(name))
+print(f"Hello, {name}!")
